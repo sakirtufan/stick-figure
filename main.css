@@ -1,0 +1,74 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;   
+}
+
+#kafa{
+   height: 200px;
+   width: 200px;
+   border: 4px solid black;
+   border-radius: 50%;
+   margin: 30px auto;
+   position: relative;
+   top: 30px;
+}
+#vucut{
+   height: 300px;
+   width: 0;
+   border: 3px solid black;
+   margin: 0 auto;  
+}
+
+#bacak1{
+   height: 200px;
+   width: 0;
+   border: 3px solid black;
+   margin: 0 auto;
+   position: relative;
+   -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  transform: rotate(45deg);
+  transform-origin: top;
+  bottom: 200px;
+}
+#bacak2{
+   height: 200px;
+   width: 0;
+   border: 3px solid black;
+   margin: 0 auto;
+   position: relative;
+   -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  transform: rotate(-45deg);
+  transform-origin: top;
+  position: relative;
+  bottom: 600px;
+}
+#kol1{
+   height: 200px;
+   width: 0;
+   border: 3px solid black;
+   margin: 0 auto;
+   position: relative;
+   -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  transform: rotate(135deg);
+  transform-origin: top;
+  position: relative;
+  bottom: 150px;
+}
+
+#kol2{
+   height: 200px;
+   width: 0;
+   border: 3px solid black;
+   margin: 0 auto;
+   position: relative;
+   -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  transform: rotate(-135deg);
+  transform-origin: top;
+  position: relative;
+  bottom: 550px;
+}
